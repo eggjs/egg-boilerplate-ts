@@ -1,0 +1,13 @@
+coverage
+.logs
+npm-debug.log
+npm-debug.log.*
+.tmp
+tmp
+dist
+.idea/
+node_modules
+logs
+run
+*.sw*
+*.un~

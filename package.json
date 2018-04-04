@@ -1,0 +1,38 @@
+{
+  "name": "egg-boilerplate-ts",
+  "version": "3.0.0",
+  "description": "boilerplate for egg typescript",
+  "scripts": {
+    "autod": "autod",
+    "lint": "eslint .",
+    "test": "npm run lint -- --fix && npm run test-boilerplate",
+    "ci": "npm run lint && npm run ci-boilerplate",
+    "test-boilerplate": "npm run build && npm run install-deps && cd dist && npm test",
+    "ci-boilerplate": "npm run build && npm run install-deps && cd dist && npm run ci",
+    "clean": "rm -rf boilerplate/.idea boilerplate/logs boilerplate/node_modules boilerplate/run",
+    "build": "npm run clean && egg-init dist --force --silent --template=./",
+    "install-deps": "cd dist && npm i autod-egg && ../node_modules/.bin/autod && npm i"
+  },
+  "homepage": "https://github.com/eggjs/egg-boilerplate-ts",
+  "bugs": "https://github.com/eggjs/egg/issues",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eggjs/egg-boilerplate-ts.git"
+  },
+  "author": "TZ <atian25@qq.com>",
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.0.0",
+    "egg-ci": "^1.8.0",
+    "egg-init": "^1.12.0",
+    "eslint": "^4.10.0",
+    "eslint-config-egg": "^5.1.1",
+    "npminstall": "^3.2.1",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "eslintIgnore": [ "coverage", "dist" ],
+  "dependencies": {}
+}
