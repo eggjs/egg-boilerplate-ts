@@ -22,12 +22,9 @@
   },
   "dependencies": {
     "egg": "^2.6.0",
-    "egg-scripts": "^2.6.0",
-    "egg-view-nunjucks": "^2.2.0",
-    "moment": "^2.22.0"
+    "egg-scripts": "^2.6.0"
   },
   "devDependencies": {
-    "@types/cheerio": "^0.22.1",
     "@types/mocha": "^2.2.40",
     "@types/node": "^7.0.12",
     "@types/supertest": "^2.0.0",
@@ -39,7 +36,7 @@
     "egg-mock": "^3.16.0",
     "egg-ts-helper": "^1.4.2",
     "rimraf": "^2.6.1",
-    "tslib": "^1.8.1",
+    "tslib": "^1.9.0",
     "tslint": "^4.0.0",
     "typescript": "^2.8.1"
   },
