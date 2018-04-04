@@ -12,8 +12,6 @@ module.exports = {
   dep: [
     'egg',
     'egg-scripts',
-    'egg-view-nunjucks',
-    'moment',
   ],
   devdep: [
     'autod',
