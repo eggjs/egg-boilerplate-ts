@@ -21,7 +21,7 @@
     "clean": "ets clean"
   },
   "dependencies": {
-    "egg": "^2.6.0",
+    "egg": "^2.6.1",
     "egg-scripts": "^2.6.0"
   },
   "devDependencies": {
