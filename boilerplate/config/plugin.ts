@@ -1,8 +1,11 @@
-'use strict';
+import { EggPlugin } from 'egg';
 
-export default {
+const plugin: EggPlugin = {
+  // static: true,
   // nunjucks: {
   //   enable: true,
   //   package: 'egg-view-nunjucks',
   // },
 };
+
+export default plugin;

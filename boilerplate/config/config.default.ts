@@ -1,5 +1,3 @@
-'use strict';
-
 import { EggAppConfig, PowerPartial } from 'egg';
 
 // for config.{env}.ts
@@ -8,7 +6,6 @@ export type DefaultConfig = PowerPartial<EggAppConfig & BizConfig>;
 // app special config scheme
 export interface BizConfig {
   sourceUrl: string;
-  middleware: string[];
 }
 
 export default (appInfo: EggAppConfig) => {
