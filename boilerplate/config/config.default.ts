@@ -1,4 +1,4 @@
-import { EggAppConfig, PowerPartial } from 'egg';
+import { EggAppConfig, EggAppInfo, PowerPartial } from 'egg';
 
 // for config.{env}.ts
 export type DefaultConfig = PowerPartial<EggAppConfig & BizConfig>;
@@ -8,7 +8,7 @@ export interface BizConfig {
   sourceUrl: string;
 }
 
-export default (appInfo: EggAppConfig) => {
+export default (appInfo: EggAppInfo) => {
   const config = {} as PowerPartial<EggAppConfig> & BizConfig;
 
   // app special config
