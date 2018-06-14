@@ -17,7 +17,7 @@
     "tsc": "ets && tsc -p tsconfig.json",
     "ci": "npm run lint && npm run cov && npm run tsc",
     "autod": "autod",
-    "lint": "tslint .",
+    "lint": "tslint -p . -c tslint.json",
     "clean": "ets clean"
   },
   "dependencies": {
