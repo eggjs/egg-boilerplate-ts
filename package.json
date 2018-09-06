@@ -1,6 +1,6 @@
 {
   "name": "egg-boilerplate-ts",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "boilerplate for egg typescript",
   "scripts": {
     "autod": "autod",
