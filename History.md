@@ -1,4 +1,10 @@
 
+1.6.0 / 2019-02-21
+==================
+
+**others**
+  * [[`520c5b5`](http://github.com/eggjs/egg-boilerplate-ts/commit/520c5b56d95a07fab02b7dbc8987a9711fbe1795)] - chore: using egg-bin declarations instead of require (#14) (吖猩 <<whxaxes@qq.com>>)
+
 1.5.0 / 2019-01-16
 ==================
 

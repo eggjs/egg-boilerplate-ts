@@ -1,6 +1,6 @@
 {
   "name": "egg-boilerplate-ts",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "boilerplate for egg typescript",
   "scripts": {
     "autod": "autod",
@@ -33,6 +33,9 @@
   "ci": {
     "version": "8"
   },
-  "eslintIgnore": [ "coverage", "dist" ],
+  "eslintIgnore": [
+    "coverage",
+    "dist"
+  ],
   "dependencies": {}
 }
