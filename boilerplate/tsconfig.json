@@ -4,7 +4,7 @@
     "target": "es2017",
     "module": "commonjs",
     "strict": true,
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "charset": "utf8",
@@ -20,7 +20,8 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "inlineSourceMap": true,
-    "importHelpers": true
+    "importHelpers": true,
+    "strictNullChecks": true
   },
   "exclude": [
     "app/public",
