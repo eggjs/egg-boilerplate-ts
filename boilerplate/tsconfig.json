@@ -20,7 +20,16 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "inlineSourceMap": true,
-    "importHelpers": true
+    "importHelpers": true,
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": [
+        "app/*",
+      ],
+      "@cfg/*": [
+        "config/*"
+      ]
+    }
   },
   "exclude": [
     "app/public",
