@@ -1,3 +1,4 @@
+import 'tsconfig-paths/register';
 import { EggPlugin } from 'egg';
 
 const plugin: EggPlugin = {
