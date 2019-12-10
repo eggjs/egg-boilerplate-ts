@@ -18,7 +18,7 @@
     "tsc": "ets && tsc -p tsconfig.json",
     "ci": "npm run lint && npm run cov && npm run tsc",
     "autod": "autod",
-    "lint": "tslint --project . -c tslint.json",
+    "lint": "eslint . --ext .ts",
     "clean": "ets clean"
   },
   "dependencies": {
@@ -35,8 +35,8 @@
     "egg-bin": "^4.11.0",
     "egg-mock": "^3.16.0",
     "tslib": "^1.9.0",
-    "tslint": "^5.0.0",
-    "tslint-config-egg": "^1.0.0",
+    "eslint": "^6.7.2",
+    "eslint-config-egg": "^8.0.0",
     "typescript": "^3.0.0"
   },
   "engines": {

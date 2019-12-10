@@ -25,8 +25,8 @@
     "autod-egg": "^1.0.0",
     "egg-ci": "^1.8.0",
     "egg-init": "^1.12.0",
-    "eslint": "^4.10.0",
-    "eslint-config-egg": "^5.1.1",
+    "eslint": "^6.7.2",
+    "eslint-config-egg": "^8.0.0",
     "npminstall": "^3.2.1",
     "webstorm-disable-index": "^1.2.0"
   },
