@@ -1,4 +1,10 @@
 
+1.7.0 / 2020-01-20
+==================
+
+**features**
+  * [[`144f5ae`](http://github.com/eggjs/egg-boilerplate-ts/commit/144f5ae09d6e196e92c3183a73d6bc26cb1795c0)] - feat: change tslint to eslint (#17) (吖猩 <<whxaxes@gmail.com>>)
+
 1.6.0 / 2019-02-21
 ==================
 
