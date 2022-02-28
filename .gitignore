@@ -11,3 +11,4 @@ logs
 run
 *.sw*
 *.un~
+.DS_Store
