@@ -18,7 +18,7 @@
     "tsc": "ets && tsc -p tsconfig.json",
     "ci": "npm run lint && npm run cov && npm run tsc",
     "autod": "autod",
-    "lint": "eslint . --ext .ts",
+    "lint": "eslint . --ext .ts --resolve-plugins-relative-to .",
     "clean": "ets clean"
   },
   "dependencies": {
@@ -29,21 +29,22 @@
     "@types/mocha": "^2.2.40",
     "@types/node": "^7.0.12",
     "@types/supertest": "^2.0.0",
+    "@eggjs/tsconfig": "^1.0.0",
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
-    "egg-ci": "^1.8.0",
+    "egg-ci": "^2.1.0",
     "egg-bin": "^4.11.0",
     "egg-mock": "^3.16.0",
     "tslib": "^1.9.0",
-    "eslint": "^6.7.2",
-    "eslint-config-egg": "^8.0.0",
-    "typescript": "^3.0.0"
+    "eslint": "^8.0.0",
+    "eslint-config-egg": "^12.0.0",
+    "typescript": "^4.0.0"
   },
   "engines": {
-    "node": ">=8.9.0"
+    "node": ">=14.0.0"
   },
   "ci": {
-    "version": "8"
+    "version": "14, 16"
   },
   "repository": {
     "type": "git",
