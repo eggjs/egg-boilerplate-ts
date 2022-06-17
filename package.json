@@ -31,7 +31,7 @@
     "webstorm-disable-index": "^1.2.0"
   },
   "ci": {
-    "version": "14, 16"
+    "version": "14, 16, 18"
   },
   "eslintIgnore": [
     "coverage",
