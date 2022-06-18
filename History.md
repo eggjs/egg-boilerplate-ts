@@ -1,4 +1,10 @@
 
+1.8.0 / 2022-06-18
+==================
+
+**features**
+  * [[`0bc89be`](http://github.com/eggjs/egg-boilerplate-ts/commit/0bc89be0aac6128efb3efaf4eac8788436aedfd2)] - feat: upgrade deps version (#20) (吖猩 <<whx89768@alibaba-inc.com>>)
+
 1.7.0 / 2020-01-20
 ==================
 
