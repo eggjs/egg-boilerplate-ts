@@ -4,8 +4,7 @@
   "description": "{{description}}",
   "private": true,
   "egg": {
-    "typescript": true,
-    "declarations": true
+    "typescript": true
   },
   "scripts": {
     "start": "egg-scripts start --daemon --title=egg-server-{{name}}",
