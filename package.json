@@ -1,6 +1,6 @@
 {
   "name": "egg-boilerplate-ts",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "description": "boilerplate for tegg",
   "scripts": {
     "lint": "eslint . --resolve-plugins-relative-to .",
