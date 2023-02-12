@@ -35,7 +35,7 @@
     "@types/mocha": "10",
     "@types/node": "18",
     "@eggjs/tsconfig": "1",
-    "egg-bin": "5",
+    "egg-bin": "next",
     "egg-mock": "5",
     "eslint": "8",
     "eslint-config-egg": "12",
