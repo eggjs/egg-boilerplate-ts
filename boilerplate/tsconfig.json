@@ -1,8 +1,10 @@
 {
   "extends": "@eggjs/tsconfig",
-  "exclude": [
-    "app/public",
-    "app/views",
-    "node_modules*"
-  ]
+  "compilerOptions": {
+    "declaration": false,
+    "paths": {
+      "@/module/*": ["app/module/*"]
+    },
+    "baseUrl": "."
+  }
 }

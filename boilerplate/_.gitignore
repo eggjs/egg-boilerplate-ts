@@ -10,7 +10,7 @@ logs/
 *.swp
 *.lock
 *.js
-!.autod.conf.js
+.eslintcache
 
 app/**/*.js
 test/**/*.js
