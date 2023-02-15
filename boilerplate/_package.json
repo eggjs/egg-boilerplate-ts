@@ -13,9 +13,9 @@
     "test-local": "egg-bin test -p",
     "test": "npm run lint -- --fix && npm run test-local",
     "cov": "egg-bin cov -p",
-    "tsc": "tsc",
     "ci": "npm run lint && npm run cov && npm run tsc && npm run clean",
     "lint": "eslint . --ext .ts --cache",
+    "tsc": "tsc",
     "clean": "tsc -b --clean"
   },
   "dependencies": {
@@ -34,14 +34,14 @@
     "@types/mocha": "10",
     "@types/node": "18",
     "@eggjs/tsconfig": "1",
-    "egg-bin": "next",
+    "egg-bin": "6",
     "egg-mock": "5",
     "eslint": "8",
     "eslint-config-egg": "12",
     "typescript": "4"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "repository": {
     "type": "git",
