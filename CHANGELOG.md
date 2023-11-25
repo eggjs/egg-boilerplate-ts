@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0](https://github.com/eggjs/egg-boilerplate-ts/compare/v1.10.0...v1.11.0) (2023-11-25)
+
+
+### Features
+
+* add enforce-node-prefix eslint rule by default ([#25](https://github.com/eggjs/egg-boilerplate-ts/issues/25)) ([9480865](https://github.com/eggjs/egg-boilerplate-ts/commit/94808656f83ffa1c6007e796908b3cdc299b4a2c))
+
 ## [1.10.0](https://github.com/eggjs/egg-boilerplate-ts/compare/v1.9.0...v1.10.0) (2023-02-15)
 
 
