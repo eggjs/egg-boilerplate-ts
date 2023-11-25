@@ -1,4 +1,4 @@
-# hackernews-tegg
+# tegg app
 
 [Hacker News](https://news.ycombinator.com/) showcase using [tegg](https://github.com/eggjs/tegg)
 
@@ -7,9 +7,9 @@
 ### Development
 
 ```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/
+npm i
+npm run dev
+open http://localhost:7001/
 ```
 
 Don't tsc compile at development mode, if you had run `tsc` then you need to `npm run clean` before `npm run dev`.
@@ -17,8 +17,8 @@ Don't tsc compile at development mode, if you had run `tsc` then you need to `np
 ### Deploy
 
 ```bash
-$ npm run tsc
-$ npm start
+npm run tsc
+npm start
 ```
 
 ### Npm Scripts
