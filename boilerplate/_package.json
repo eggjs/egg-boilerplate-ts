@@ -38,10 +38,10 @@
     "egg-mock": "5",
     "eslint": "8",
     "eslint-config-egg": "13",
-    "typescript": "~5.2.2"
+    "typescript": "5"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.10.0"
   },
   "repository": {
     "type": "git",
