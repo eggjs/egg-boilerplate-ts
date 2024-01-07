@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.1](https://github.com/eggjs/egg-boilerplate-ts/compare/v1.11.0...v1.11.1) (2024-01-07)
+
+
+### Bug Fixes
+
+* use typescript v5 latest ([#26](https://github.com/eggjs/egg-boilerplate-ts/issues/26)) ([9c87112](https://github.com/eggjs/egg-boilerplate-ts/commit/9c871129fbf6c8533703ad511f94a8c935014497))
+
 ## [1.11.0](https://github.com/eggjs/egg-boilerplate-ts/compare/v1.10.0...v1.11.0) (2023-11-25)
 
 
