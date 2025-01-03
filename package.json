@@ -21,7 +21,8 @@
   "author": "TZ <atian25@qq.com>",
   "devDependencies": {
     "egg-init": "^3.0.2",
-    "eslint": "^8.34.0",
-    "eslint-config-egg": "13"
-  }
+    "eslint": "8",
+    "eslint-config-egg": "14"
+  },
+  "license": "MIT"
 }

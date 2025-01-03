@@ -7,41 +7,44 @@
     "typescript": true
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-{{name}}",
-    "stop": "egg-scripts stop --title=egg-server-{{name}}",
+    "start": "eggctl start --daemon --title=egg-server-{{name}}",
+    "stop": "eggctl stop --title=egg-server-{{name}}",
     "dev": "egg-bin dev",
-    "test:local": "egg-bin test -p",
-    "test": "npm run lint -- --fix && npm run test:local",
-    "cov": "egg-bin cov -p",
-    "ci": "npm run lint && npm run cov && npm run tsc && npm run clean",
+    "test:local": "egg-bin test",
+    "pretest": "npm run clean && npm run lint -- --fix",
+    "test": "egg-bin test",
+    "preci": "npm run clean && npm run lint",
+    "ci": "egg-bin cov",
+    "postci": "npm run tsc && npm run clean",
     "lint": "eslint . --ext .ts --cache",
     "tsc": "tsc",
-    "clean": "tsc -b --clean"
+    "clean": "tsc -b --clean",
+    "prepublishOnly": "npm run clean && npm run tsc"
   },
   "dependencies": {
     "@eggjs/tegg": "^3.5.2",
     "@eggjs/tegg-aop-plugin": "^3.5.2",
-    "@eggjs/tegg-config": "^3.2.3",
+    "@eggjs/tegg-config": "^3.5.2",
     "@eggjs/tegg-controller-plugin": "^3.5.2",
     "@eggjs/tegg-eventbus-plugin": "^3.5.2",
     "@eggjs/tegg-plugin": "^3.5.2",
     "@eggjs/tegg-schedule-plugin": "^3.5.2",
-    "egg": "^3.15.0",
-    "egg-scripts": "^2.17.0",
+    "egg": "beta",
+    "@eggjs/scripts": "^4.0.0",
     "egg-tracer": "^2.0.0"
   },
   "devDependencies": {
     "@types/mocha": "10",
-    "@types/node": "20",
+    "@types/node": "22",
     "@eggjs/tsconfig": "1",
-    "egg-bin": "6",
-    "egg-mock": "5",
+    "@eggjs/bin": "7",
+    "@eggjs/mock": "6",
     "eslint": "8",
-    "eslint-config-egg": "13",
+    "eslint-config-egg": "14",
     "typescript": "5"
   },
   "engines": {
-    "node": ">=20.10.0"
+    "node": ">=20.18.1"
   },
   "repository": {
     "type": "git",

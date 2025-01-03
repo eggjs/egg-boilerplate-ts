@@ -1,5 +1,5 @@
 import { strict as assert } from 'node:assert';
-import { app } from 'egg-mock/bootstrap';
+import { app } from '@eggjs/mock/bootstrap';
 
 describe('test/app/module/bar/controller/home.test.ts', () => {
   it('should GET /', async () => {

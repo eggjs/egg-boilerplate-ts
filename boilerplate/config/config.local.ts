@@ -1,6 +1,6 @@
-import { EggAppConfig, PowerPartial } from 'egg';
+import { EggAppConfig } from 'egg';
 
 export default () => {
-  const config: PowerPartial<EggAppConfig> = {};
+  const config = {} as EggAppConfig;
   return config;
 };
