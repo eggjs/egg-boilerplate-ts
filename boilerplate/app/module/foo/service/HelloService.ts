@@ -8,7 +8,7 @@ import { SingletonProto, AccessLevel, Inject } from '@eggjs/tegg';
 export class HelloService {
   // 注入一个 logger
   @Inject()
-  logger: EggLogger;
+  private logger: EggLogger;
 
   // 封装业务
   async hello(userId: string): Promise<string> {

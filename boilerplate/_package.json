@@ -15,7 +15,7 @@
     "test": "egg-bin test",
     "preci": "npm run clean && npm run lint",
     "ci": "egg-bin cov",
-    "postci": "npm run tsc && npm run clean",
+    "postci": "npm run prepublishOnly && npm start && npm stop && npm run clean",
     "lint": "eslint . --ext .ts --cache",
     "tsc": "tsc",
     "clean": "tsc -b --clean",
