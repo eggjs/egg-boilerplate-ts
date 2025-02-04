@@ -28,6 +28,10 @@ open http://localhost:7001
 
 See [egg-init](https://github.com/eggjs/egg-init) for more detail.
 
+## License
+
+[MIT](LICENSE)
+
 ## Contributors
 
 [![Contributors](https://contrib.rocks/image?repo=eggjs/egg-boilerplate-ts)](https://github.com/eggjs/egg-boilerplate-ts/graphs/contributors)

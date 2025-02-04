@@ -7,10 +7,13 @@
     "test": "npm run lint -- --fix && npm run test-boilerplate",
     "ci": "npm run lint && npm run ci-boilerplate",
     "test-boilerplate": "npm run build && npm run install-deps && cd dist && npm test",
+    "test-boilerplate-from-cnpm": "npm run build && npm run install-deps-from-cnpm && cd dist && npm test",
     "ci-boilerplate": "npm run build && npm run install-deps && cd dist && npm run ci",
+    "ci-boilerplate-from-cnpm": "npm run build && npm run install-deps-from-cnpm && cd dist && npm run ci",
     "clean": "rm -rf dist",
     "build": "npm run clean && egg-init dist --force --silent --template=./",
-    "install-deps": "cd dist && npm i"
+    "install-deps": "cd dist && npm i",
+    "install-deps-from-cnpm": "cd dist && cnpm i"
   },
   "homepage": "https://github.com/eggjs/egg-boilerplate-ts",
   "bugs": "https://github.com/eggjs/egg/issues",
