@@ -1,5 +1,47 @@
 # Changelog
 
+## [2.0.0](https://github.com/eggjs/egg-boilerplate-ts/compare/v1.11.1...v2.0.0) (2025-02-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop Node.js < 18.19.0 support
+
+part of https://github.com/eggjs/egg/issues/3644
+
+https://github.com/eggjs/egg/issues/5257
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai
+-->
+## Summary by CodeRabbit
+
+## Release Notes
+
+- **Project Configuration**
+  - Updated Node.js version support to 18, 20, and 22
+- Updated TypeScript configuration to ES2022 and NodeNext module
+resolution
+  - Updated minimum Node.js requirement to version 18
+  - Added MIT license
+
+- **Dependencies**
+  - Upgraded several development dependencies
+  - Updated testing and build tools to latest versions
+
+- **Documentation**
+  - Added Contributors section to README
+  - Updated project requirements documentation
+
+- **Maintenance**
+  - Updated `.gitignore` to exclude `package-lock.json`
+  - Removed pull request template
+  - Introduced a new configuration file for unit tests
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
+
+### Features
+
+* support cjs and esm both by tshy ([#27](https://github.com/eggjs/egg-boilerplate-ts/issues/27)) ([b750157](https://github.com/eggjs/egg-boilerplate-ts/commit/b7501572bd043bea1d5b8976a15f3c1e600e24df))
+
 ## [1.11.1](https://github.com/eggjs/egg-boilerplate-ts/compare/v1.11.0...v1.11.1) (2024-01-07)
 
 
