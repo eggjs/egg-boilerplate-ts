@@ -6,7 +6,7 @@ import { Inject, HTTPController, HTTPMethod, HTTPMethodEnum } from '@eggjs/tegg'
 })
 export class HomeController {
   @Inject()
-  logger: EggLogger;
+  private logger: EggLogger;
 
   @HTTPMethod({
     method: HTTPMethodEnum.GET,

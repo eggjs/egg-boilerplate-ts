@@ -6,7 +6,7 @@ import { HelloService } from '@/module/foo';
 })
 export class UserController {
   @Inject()
-  helloService: HelloService;
+  private helloService: HelloService;
 
   @HTTPMethod({
     method: HTTPMethodEnum.GET,

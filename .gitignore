@@ -11,3 +11,5 @@ logs
 run
 *.sw*
 *.un~
+package-lock.json
+.package-lock.json
