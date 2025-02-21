@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/eggjs/egg-boilerplate-ts/compare/v2.0.0...v2.0.1) (2025-02-21)
+
+
+### Bug Fixes
+
+* use @eggjs/tracer@3 ([#28](https://github.com/eggjs/egg-boilerplate-ts/issues/28)) ([3d0239d](https://github.com/eggjs/egg-boilerplate-ts/commit/3d0239d0e0d54951e04a2cdc448d44f51a584558))
+
 ## [2.0.0](https://github.com/eggjs/egg-boilerplate-ts/compare/v1.11.1...v2.0.0) (2025-02-04)
 
 
