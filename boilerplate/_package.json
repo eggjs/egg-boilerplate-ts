@@ -2,6 +2,7 @@
   "name": "{{name}}",
   "version": "1.0.0",
   "description": "{{description}}",
+  "type": "module",
   "private": true,
   "egg": {
     "typescript": true
@@ -22,13 +23,13 @@
     "prepublishOnly": "npm run clean && npm run tsc"
   },
   "dependencies": {
-    "@eggjs/tegg": "^3.5.2",
-    "@eggjs/tegg-aop-plugin": "^3.5.2",
-    "@eggjs/tegg-config": "^3.5.2",
-    "@eggjs/tegg-controller-plugin": "^3.5.2",
-    "@eggjs/tegg-eventbus-plugin": "^3.5.2",
-    "@eggjs/tegg-plugin": "^3.5.2",
-    "@eggjs/tegg-schedule-plugin": "^3.5.2",
+    "@eggjs/tegg": "4.0.0-beta.1",
+    "@eggjs/tegg-aop-plugin": "4.0.0-beta.1",
+    "@eggjs/tegg-config": "4.0.0-beta.1",
+    "@eggjs/tegg-controller-plugin": "4.0.0-beta.1",
+    "@eggjs/tegg-eventbus-plugin": "4.0.0-beta.1",
+    "@eggjs/tegg-plugin": "4.0.0-beta.1",
+    "@eggjs/tegg-schedule-plugin": "4.0.0-beta.1",
     "egg": "^4.0.0",
     "@eggjs/scripts": "^4.0.0",
     "@eggjs/tracer": "^3.0.0"
